@@ -44,37 +44,3 @@ section.services {
 .service p {
     font-size: 1.3em;
 }
-
-/* Дополнительные стили для секции "Наше портфолио" */
-section.portfolio {
-    max-width: 1125px;
-    margin: 20px auto 125px;
-    background-color: white;
-    padding: 14px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-/* Дополнительные стили для ссылки внутри "h2" в секции "Наше портфолио" */
-section.portfolio h2 a {
-    color: #0e0e0e;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease; /* Добавляем анимацию для свойства transform */
-    display: inline-block; /* Добавляем блочное отображение для применения размера текста */
-}
-
-section.portfolio h2 a:hover {
-    transform: scale(1.05); /* Увеличиваем размер текста при наведении */
-}
-
-section.portfolio h2:first-child {
-    margin-bottom: 40px;
-}
